@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+table {
+	border-collapse: collapse;
+	width:100%;
+	text-align:right;
+}
+tr,td,th{
+	padding:2%;
+	border:1px solid black
+}
+thead {
+	background-color: firebrick;
+}
+table tr:first-child td {
+	background-color: cyan
+}
+table tr:nth-child(2) td {
+	background-color: gray
+}
+table tr:nth-child(3) td {
+	background-color:gold;
+}
